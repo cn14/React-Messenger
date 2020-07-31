@@ -1,0 +1,51 @@
+[debug] [2020-07-16T16:23:16.467Z] ----------------------------------------------------------------------
+[debug] [2020-07-16T16:23:16.469Z] Command:       /usr/bin/node /usr/local/bin/firebase init
+[debug] [2020-07-16T16:23:16.470Z] CLI Version:   8.6.0
+[debug] [2020-07-16T16:23:16.470Z] Platform:      linux
+[debug] [2020-07-16T16:23:16.470Z] Node Version:  v10.19.0
+[debug] [2020-07-16T16:23:16.470Z] Time:          Thu Jul 16 2020 21:53:16 GMT+0530 (India Standard Time)
+[debug] [2020-07-16T16:23:16.470Z] ----------------------------------------------------------------------
+[debug] [2020-07-16T16:23:16.470Z] 
+[debug] [2020-07-16T16:23:16.474Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-16T16:23:16.475Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/cn14/Desktop/react-app/messenger
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-07-16T16:23:26.777Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-07-16T16:23:27.857Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 16 Jul 2020 16:23:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  Using project facebook-messenger-clone-6886d (facebook-messenger-clone) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2020-07-16T16:23:33.745Z] >>> HTTP REQUEST GET https://www.gstatic.com/firebasejs/releases.json  
+ 
+[debug] [2020-07-16T16:23:34.182Z] <<< HTTP RESPONSE 200 {"accept-ranges":"bytes","vary":"Accept-Encoding, Origin","content-type":"application/json","content-length":"1429","date":"Thu, 16 Jul 2020 15:57:24 GMT","expires":"Thu, 16 Jul 2020 16:47:24 GMT","last-modified":"Thu, 09 Jul 2020 21:23:21 GMT","x-content-type-options":"nosniff","server":"sffe","x-xss-protection":"0","cache-control":"public, max-age=3000","age":"1570","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""}
+[debug] [2020-07-16T16:23:34.686Z] Error: ENOTDIR: not a directory, open '/home/cn14/Desktop/react-app/messenger/build/index.html'
+    at Object.openSync (fs.js:443:3)
+    at Object.writeFileSync (fs.js:1194:35)
+    at Object.createFileSync (/usr/local/lib/node_modules/firebase-tools/node_modules/fs-extra/lib/ensure/file.js:34:6)
+    at Config.writeProjectFile (/usr/local/lib/node_modules/firebase-tools/lib/config.js:154:8)
+    at /usr/local/lib/node_modules/firebase-tools/lib/config.js:173:18
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[error] 
+[error] Error: An unexpected error has occurred.

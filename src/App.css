@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.app_form{
+  margin-top: 200px !important;
+  padding: 20px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(201, 197, 197);
+}
+.input_form{
+  width: 80%;
+}
+.messages{
+  margin-bottom: 100px;
+}

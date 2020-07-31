@@ -1,0 +1,15 @@
+.message_user{
+    margin: 10px;
+    margin-left: auto;
+    padding: 10px;
+    width: fit-content;
+    color: white !important;
+    background-color: blue !important;
+}
+
+.message_guest{
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    background-color: red!important;
+}
